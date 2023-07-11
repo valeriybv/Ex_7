@@ -22,12 +22,5 @@ class Designer(Employee):
         self.publish_grade()
 
 
-    def add_scores(self):
-        """Прибавляет очки квалификации"""
-        self.score +=1
-        return self.score
 
-
-    def publish_grade(self):
-        print("Текущий грейд", self.grade)
 

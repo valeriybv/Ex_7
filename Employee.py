@@ -22,5 +22,15 @@ class Employee(object):
             self.awards.append(item)
         return self.awards
 
+    
+    def add_scores(self):
+        """Прибавляет очки квалификации"""
+        self.score +=1
+        return self.score
+
+
+    def publish_grade(self):
+        print("Текущий грейд", self.grade)
+
 
 

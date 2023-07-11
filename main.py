@@ -11,6 +11,7 @@ max_curr = currcency.find_max_value(dict)
 print(max_curr['Name'])
 #Задание 2
 r = Rate.Rate()
+# пример с разницей для курсов валют
 print(r.currency_rate(Rate.currcodes.BYN.value, diff_=True))
 #Задание 3
 p = Designer('Аристарх', [Awards.international, Awards.international], 17)
